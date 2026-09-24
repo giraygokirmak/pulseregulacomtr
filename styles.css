@@ -210,6 +210,22 @@ body {
   box-shadow: 0 2px 10px rgba(15, 76, 129, .05);
 }
 .card h3 { margin: 0 0 .9rem; color: var(--blue); }
+.founder-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.founder-head h3 { margin: 0; }
+.founder-photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid var(--bg-alt);
+  box-shadow: 0 2px 8px rgba(15, 76, 129, .18);
+}
 .card ul { margin: 0; padding-left: 1.15rem; }
 .card li { margin-bottom: .55rem; }
 .section-alt .card { background: #fff; }
