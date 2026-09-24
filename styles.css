@@ -54,7 +54,7 @@ body {
   gap: 1.5rem;
   padding: .7rem 0;
 }
-.brand img { display: block; height: 66px; width: auto; }
+.brand img { display: block; height: 99px; width: auto; }
 .main-nav {
   margin-left: auto;
   display: flex;
