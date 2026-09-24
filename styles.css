@@ -101,13 +101,15 @@ body {
   cursor: pointer;
 }
 .mobile-nav {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: .4rem;
   padding: .8rem 4%;
   border-top: 1px solid var(--border);
   background: #fff;
 }
+.mobile-nav[hidden] { display: none !important; }
+.mobile-nav.open { display: flex; }
 .mobile-nav a {
   text-decoration: none;
   color: var(--ink);

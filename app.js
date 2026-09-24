@@ -292,21 +292,23 @@
   var toggle = document.querySelector(".menu-toggle");
   var mobileNav = document.getElementById("mobileNav");
   if (toggle && mobileNav) {
+    var setNav = function (open) {
+      mobileNav.hidden = !open;
+      mobileNav.classList.toggle("open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.textContent = open ? "✕" : "☰";
+    };
     toggle.addEventListener("click", function () {
-      var open = mobileNav.hasAttribute("hidden") === false;
-      if (open) {
-        mobileNav.setAttribute("hidden", "");
-        toggle.setAttribute("aria-expanded", "false");
-      } else {
-        mobileNav.removeAttribute("hidden");
-        toggle.setAttribute("aria-expanded", "true");
-      }
+      setNav(mobileNav.hidden);
     });
     mobileNav.querySelectorAll("a").forEach(function (a) {
       a.addEventListener("click", function () {
-        mobileNav.setAttribute("hidden", "");
-        toggle.setAttribute("aria-expanded", "false");
+        setNav(false);
       });
+    });
+    // Close the menu when resizing back to desktop width.
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 860 && !mobileNav.hidden) setNav(false);
     });
   }
 
