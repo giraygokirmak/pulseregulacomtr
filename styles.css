@@ -308,7 +308,7 @@ details p { color: var(--muted); margin: .7rem 0 .2rem; }
   gap: 1rem;
   justify-content: space-between;
 }
-.footer-inner img { height: 36px; width: auto; filter: brightness(0) invert(1); }
+.footer-inner img { height: 36px; width: auto; display: block; }
 .footer-inner p { margin: 0; font-size: .9rem; }
 
 /* Responsive */

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="prwTitle prwDesc">
+  <title id="prwTitle">PulseRegula</title>
+  <desc id="prwDesc">PulseRegula wordmark, light variant for dark backgrounds.</desc>
+  <!-- Mark -->
+  <g>
+    <rect x="12" y="20" width="120" height="120" rx="26" fill="#ffffff"/>
+    <path d="M14 82 h20 l7 -20 l12 40 l8 -24 h11"
+          fill="none" stroke="#0f4c81" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"
+          transform="translate(30,2)"/>
+  </g>
+  <!-- Wordmark -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="52" font-weight="700">
+    <text x="156" y="100" fill="#7fb3e0">Pulse</text>
+    <text x="278" y="100" fill="#ffffff">Regula</text>
+  </g>
+  <text x="158" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14.5" letter-spacing="3.4" fill="#b9c2d4">REGULATORY AFFAIRS &amp; QUALITY</text>
+</svg>
