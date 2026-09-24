@@ -270,7 +270,7 @@
     if (mailLink) {
       mailLink.setAttribute(
         "href",
-        "mailto:gizem@gokirmak.gen.tr?subject=" + encodeURIComponent(dict.mailSubject)
+        "mailto:gizem.gokirmak@pulseregula.com?subject=" + encodeURIComponent(dict.mailSubject)
       );
     }
 
