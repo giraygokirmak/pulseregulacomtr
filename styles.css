@@ -213,18 +213,22 @@ body {
 .founder-head {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  gap: 1.4rem;
+  margin-bottom: 1.2rem;
 }
 .founder-head h3 { margin: 0; }
 .founder-photo {
-  width: 88px;
-  height: 88px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  border: 3px solid var(--bg-alt);
-  box-shadow: 0 2px 8px rgba(15, 76, 129, .18);
+  border: 4px solid var(--bg-alt);
+  box-shadow: 0 3px 12px rgba(15, 76, 129, .2);
+  flex-shrink: 0;
+}
+@media (max-width: 520px) {
+  .founder-head { flex-direction: column; align-items: flex-start; gap: .9rem; }
 }
 .card ul { margin: 0; padding-left: 1.15rem; }
 .card li { margin-bottom: .55rem; }
