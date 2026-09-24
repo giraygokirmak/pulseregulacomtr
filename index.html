@@ -1,49 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            width: 90%;
-            margin: 0 auto;
-        }
-        header {
-            margin-top: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #b5b5b5;
-        }
-        .logo-row {
-            width: auto; /* Let the image determine the width */
-            margin: 0 auto;
-        }
-        .logo {
-            text-align: center;
-        }
-    </style>
-    <script>
-        window.addEventListener('load', function() {
-            const logoImage = document.querySelector('.logo img');
-            logoImage.addEventListener('load', function() {
-                const naturalWidth = logoImage.naturalWidth;
-                const naturalHeight = logoImage.naturalHeight;
-                const logoContainer = document.querySelector('.logo');
-                logoContainer.style.width = naturalWidth + 'px';
-                logoContainer.style.height = naturalHeight + 'px';
-            });
-        });
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseRegula | Tıbbi Cihaz Regülasyon ve Kalite Danışmanlığı</title>
+  <meta name="description" content="MDR ve IVDR uyumunu netleştirin. Belgeli uzmanlıkla bağımsız danışmanlık: ISO 13485, teknik dokümantasyon, denetim hazırlığı. Görüşme talep edin.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate" hreflang="tr" href="https://pulseregula.com/?lang=tr">
+  <link rel="alternate" hreflang="en" href="https://pulseregula.com/?lang=en">
+  <link rel="alternate" hreflang="de" href="https://pulseregula.com/?lang=de">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="row">
-            <div class="logo-row">
-                <div class="logo">
-                    <img src="PulseRegula.svg" alt="PulseRegula Regulatory Affairs and Quality Assurance Consulting">
-                </div>
-            </div>
+  <a class="skip-link" href="#main" data-i18n="skip">İçeriğe atla</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="PulseRegula">
+        <img src="PulseRegula.svg" alt="PulseRegula — Regulatory Affairs &amp; Quality Consulting" width="220" height="55">
+      </a>
+      <nav class="main-nav" aria-label="Ana menü" data-i18n-aria="navAria">
+        <a href="#services" data-i18n="navServices">Hizmetler</a>
+        <a href="#process" data-i18n="navProcess">Süreç</a>
+        <a href="#about" data-i18n="navAbout">Hakkında</a>
+        <a href="#faq" data-i18n="navFaq">SSS</a>
+        <a href="#contact" class="btn btn-sm" data-i18n="navContact">Görüşme Talep Et</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language / Dil / Sprache">
+        <button type="button" data-lang="tr" lang="tr">TR</button>
+        <button type="button" data-lang="en" lang="en">EN</button>
+        <button type="button" data-lang="de" lang="de">DE</button>
+      </div>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobileNav" data-i18n-aria="menuAria">☰</button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" hidden>
+      <a href="#services" data-i18n="navServices">Hizmetler</a>
+      <a href="#process" data-i18n="navProcess">Süreç</a>
+      <a href="#about" data-i18n="navAbout">Hakkında</a>
+      <a href="#faq" data-i18n="navFaq">SSS</a>
+      <a href="#contact" data-i18n="navContact">Görüşme Talep Et</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow" data-i18n="heroEyebrow">Tıbbi Cihaz &amp; IVD Uyum Danışmanlığı</p>
+        <h1 data-i18n="heroH1">Regülasyonları karşılayın. Piyasaya güvenle ulaşın.</h1>
+        <p class="subhead" data-i18n="heroSub">PulseRegula'nın bağımsız danışmanlığı MDR ve IVDR uyumunu net, yönetilebilir adımlara dönüştürür — belgeli ISO 13485 deneyimiyle.</p>
+        <a href="#contact" class="btn btn-lg" data-i18n="heroCta">Görüşme Talep Edin</a>
+        <ul class="hero-badges" aria-label="Uzmanlık alanları" data-i18n-aria="badgesAria">
+          <li>MDR 2017/745</li>
+          <li>IVDR 2017/746</li>
+          <li>ISO 13485:2016</li>
+          <li>ISO 14971:2019</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 data-i18n="servicesH2">Piyasaya daha hızlı ulaşmanıza yardımcı olan danışmanlık</h2>
+        <p class="section-intro" data-i18n="servicesIntro">Uyum bir engel olmak zorunda değil. Ürününüzün yaşam döngüsünün her aşamasında yanınızdayız.</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3 data-i18n="svc1H">Uyum stratejisi ve boşluk analizi</h3>
+            <ul>
+              <li data-i18n="svc1a">MDR 2017/745 ve IVDR 2017/746 gerekliliklerinin ürününüze göre haritalanması</li>
+              <li data-i18n="svc1b">Mevcut durum analizi ve net bir yol haritası</li>
+              <li data-i18n="svc1c">Onaylanmış kuruluş iletişimi ve denetime hazırlık desteği</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="svc2H">Teknik dokümantasyon</h3>
+            <ul>
+              <li data-i18n="svc2a">SDS, etiket, DoC, IFU, PMS ve PSUR hazırlığı</li>
+              <li data-i18n="svc2b">ISO 14971 ve ISO 31000'e uygun risk yönetimi dosyaları</li>
+              <li data-i18n="svc2c">Türkçe, İngilizce ve Almanca denetime hazır dokümantasyon</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="svc3H">Kayıt ve kalite sistemleri</h3>
+            <ul>
+              <li data-i18n="svc3a">ÜTS ve EUDAMED kayıt başvuruları</li>
+              <li data-i18n="svc3b">ISO 13485:2016 ve ISO 9001:2015 uyumlu KYS kurulumu</li>
+              <li data-i18n="svc3c">İç denetim, CAPA yönetimi ve tedarikçi kalite denetimleri</li>
+            </ul>
+          </article>
         </div>
-    </header>
-    <h1 style="text-align: center;">PulseRegula Regulatory Affairs and Quality Assurance Consulting</h1>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="processH2">Uyuma giden net bir yol</h2>
+        <p class="section-intro" data-i18n="processIntro">Her iş birliği aynı kanıtlanmış dört adımı izler.</p>
+        <ol class="steps">
+          <li>
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3 data-i18n="step1H">Keşif</h3>
+            <p data-i18n="step1P">Ürününüzü, sınıfını ve hedef pazarlarınızı anlıyoruz.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3 data-i18n="step2H">Boşluk analizi</h3>
+            <p data-i18n="step2P">Mevcut dokümantasyonunuzu MDR/IVDR gereklilikleriyle karşılaştırıyoruz.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3 data-i18n="step3H">Yol haritası</h3>
+            <p data-i18n="step3P">Önceliklendirilmiş, gerçekçi takvimli bir uyum planı çıkarıyoruz.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">4</span>
+            <h3 data-i18n="step4H">Uygulama</h3>
+            <p data-i18n="step4P">Dokümantasyon, denetim hazırlığı ve kayıtlarda yanınızdayız.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 data-i18n="aboutH">Belgelenmiş deneyim, bağımsız odak</h2>
+        <p class="section-intro" data-i18n="aboutIntro">PulseRegula, sağlık sektöründe on yılı aşan regülasyon ve kalite deneyimi üzerine kuruldu.</p>
+        <div class="about-grid">
+          <div class="card highlight">
+            <h3 data-i18n="founderH">Kurucu: Begüm Gizem Gökırmak</h3>
+            <ul>
+              <li data-i18n="founderA">Regulatory Affairs &amp; Quality Manager — Bioeksen R&amp;D Tech. / BioeXsen GmbH (IVDR uyumu, denetimler, EUDAMED)</li>
+              <li data-i18n="founderB">Regulatory Affairs &amp; Quality Manager — Gazi Kimya (ISO 13485 ve ISO 9001 sertifikasyonu, ÜTS başvuruları)</li>
+              <li data-i18n="founderC">İstanbul Üniversitesi — Biyolojik Bilimler Yüksek Lisans</li>
+            </ul>
+          </div>
+          <div class="card highlight">
+            <h3 data-i18n="certsH">Sertifikalar</h3>
+            <ul>
+              <li data-i18n="certA">BSI ISO 13485:2016 Auditor/Lead Auditor eğitimi</li>
+              <li data-i18n="certB">BSI ISO 14971:2019 Risk Yönetimi</li>
+              <li data-i18n="certC">BSI ISO 9001:2015 İç Denetçi</li>
+              <li data-i18n="certD">SZUTEST ISO 19011 Denetim Kılavuzları</li>
+              <li data-i18n="certE">KIWA ISO 13485:2016 İç Denetçi</li>
+              <li data-i18n="certF">Valtech proses, paketleme ve temiz oda validasyonu eğitimleri</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="faqH">Sık sorulan sorular</h2>
+        <div class="faq-list">
+          <details>
+            <summary data-i18n="q1">Ürünüm MDR veya IVDR kapsamında mı?</summary>
+            <p data-i18n="a1">Sınıflandırma, ürününüzün kullanım amacına bağlıdır. Kısa bir keşif görüşmesinde kapsamı netleştirip hangi kuralların geçerli olduğunu söylüyoruz.</p>
+          </details>
+          <details>
+            <summary data-i18n="q2">Hangi dokümanların eksik olduğunu nasıl anlarız?</summary>
+            <p data-i18n="a2">Boşluk analizi, mevcut teknik dosyanızı ilgili gerekliliklerle madde madde karşılaştırır. Sonuçta eksiklerin öncelik sırasına göre listelendiği bir rapor alırsınız.</p>
+          </details>
+          <details>
+            <summary data-i18n="q3">Onaylanmış kuruluş denetimine nasıl hazırlanırız?</summary>
+            <p data-i18n="a3">Denetim öncesi iç denetimler ve örnek incelemelerle zayıf noktaları bulur, düzeltici faaliyetleri planlarız. Deneyim: ISO 13485 ve ISO 9001 kapsamında onaylanmış kuruluş denetimleri ve bulgu yönetimi.</p>
+          </details>
+          <details>
+            <summary data-i18n="q4">Türkiye ve AB pazarları için ayrı dokümantasyon mu gerekli?</summary>
+            <p data-i18n="a4">Evet — Türkiye'de ÜTS kaydı, AB'de ise EUDAMED ve MDR/IVDR teknik dosyası gerekir. İki pazar için üç dilde (TR/EN/DE) tutarlı dokümantasyon hazırlıyoruz.</p>
+          </details>
+          <details>
+            <summary data-i18n="q5">Sadece belirli bir konuda destek alabilir miyiz?</summary>
+            <p data-i18n="a5">Evet. Risk yönetimi dosyası, PMS/PSUR hazırlığı veya tek bir ÜTS başvurusu gibi tek kalem işler de alıyoruz. Kapsamı birlikte tanımlarız.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-cta">
+      <div class="container">
+        <h2 data-i18n="contactH">Uyum yolculuğunuza bugün başlayın</h2>
+        <p class="section-intro" data-i18n="contactIntro">Kısaca durumunuzu anlatın, size en uygun yolu birlikte bulalım.</p>
+        <div class="contact-actions">
+          <a class="btn btn-lg" data-i18n="contactMail" href="mailto:gizem@gokirmak.gen.tr?subject=PulseRegula%20%E2%80%93%20G%C3%B6r%C3%BC%C5%9Fme%20Talebi">E-posta Gönderin</a>
+          <a class="btn btn-lg btn-outline" href="https://www.linkedin.com/in/gizemgokirmak" target="_blank" rel="noopener" data-i18n="contactLinkedin">LinkedIn'den Ulaşın</a>
+        </div>
+        <p class="contact-meta"><span data-i18n="contactLoc">İstanbul, Türkiye</span> · <a href="mailto:gizem@gokirmak.gen.tr">gizem@gokirmak.gen.tr</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="PulseRegula.svg" alt="PulseRegula" width="180" height="45">
+      <p>© 2026 PulseRegula. <span data-i18n="footerTag">Regulatory Affairs &amp; Quality Consulting</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
 </body>
 </html>

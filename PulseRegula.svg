@@ -1,73 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="95.548981mm"
-   height="87.549217mm"
-   viewBox="0 0 95.548981 87.549217"
-   version="1.1"
-   id="svg1"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
-  <defs
-     id="defs1" />
-  <g
-     inkscape:label="Katman 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-88.900004,-31.750009)">
-    <path
-       d="m 119.73805,32.245625 c -1.48167,0.3175 -3.22792,0.9525 -4.78896,1.719791 -6.0325,2.989792 -9.63083,8.281458 -10.10708,14.843123 -0.21167,2.804583 -0.0265,3.466042 1.11125,3.995208 0.74083,0.370417 1.00542,0.370417 1.71979,0.07937 1.05833,-0.449791 1.21708,-0.79375 1.42875,-3.227916 0.58208,-6.720416 4.39208,-11.40354 10.60979,-13.070415 2.19604,-0.582083 6.77333,-0.767292 8.99583,-0.396875 6.37646,1.11125 10.55688,5.582708 11.13896,11.87979 0.39687,4.339166 -1.21708,7.672916 -6.87917,14.075832 -4.36562,4.947708 -6.27062,9.921874 -4.6302,12.012082 1.19062,1.508124 3.6777,0.449791 3.6777,-1.534584 0,-1.984374 1.45521,-4.524374 4.81542,-8.360832 5.68854,-6.535207 7.35542,-9.948332 7.35542,-15.107706 -0.0265,-6.905624 -3.38667,-12.488332 -9.26042,-15.37229 -1.69333,-0.846667 -3.22792,-1.375833 -4.73604,-1.666875 -2.96333,-0.529166 -7.51417,-0.47625 -10.45104,0.132292 z"
-       style="fill:#0f4c81;fill-opacity:1;stroke-width:0.0264583"
-       id="path1" />
-    <path
-       d="m 120.34659,52.221664 c -0.39687,0.211667 -0.79375,0.582083 -0.89958,0.846667 -0.3175,0.767291 -0.15875,33.522704 0.15875,36.194995 0.55562,4.497916 2.09021,8.598957 4.07458,10.900834 1.27,1.48166 3.81,2.69875 6.05896,2.91041 1.5875,0.1323 1.74625,0.10584 2.38125,-0.52916 0.87312,-0.87313 0.89958,-2.03729 0.10583,-2.963335 -0.47625,-0.529167 -0.97896,-0.740833 -2.27542,-0.926042 -2.80458,-0.396875 -4.20687,-1.984375 -5.31812,-6.085416 -0.92604,-3.386666 -1.08479,-6.508749 -1.08479,-23.071663 V 53.438747 l -0.58209,-0.661458 c -0.76729,-0.846667 -1.74624,-1.058333 -2.61937,-0.555625 z"
-       style="fill:#0f4c81;fill-opacity:1;stroke-width:0.0264583"
-       id="path2" />
-    <path
-       d="m 90.025352,59.23311 c -1.164167,0.47625 -1.508125,2.143125 -0.635,3.201459 l 0.502708,0.635002 8.175625,0.15875 c 6.773335,0.132292 8.360835,0.211667 9.366245,0.608542 3.51897,1.322917 5.42397,5.08 4.36563,8.73125 -0.55562,1.878541 -1.85208,3.360208 -3.81,4.312708 -1.40229,0.687917 -1.79917,0.740833 -5.68854,0.873125 -4.021668,0.132292 -4.233335,0.15875 -4.709585,0.767292 -0.687917,0.846666 -0.661458,2.169583 0.105833,2.883958 0.582084,0.555625 0.873125,0.582083 4.577292,0.582083 5.55625,0 7.80521,-0.661458 10.34521,-2.989791 2.51354,-2.301875 3.78354,-5.132917 3.78354,-8.360833 0,-5.635625 -3.65125,-10.107086 -9.23396,-11.297711 C 105.18598,58.91561 91.030768,58.836235 90.025352,59.23311 Z"
-       style="fill:#221c35;fill-opacity:1;stroke-width:0.0264583"
-       id="path3" />
-    <path
-       d="m 90.554518,71.615613 c -0.343958,0.05292 -0.846666,0.396875 -1.164166,0.79375 -0.529167,0.687916 -0.555625,0.899583 -0.423334,4.28625 0.873125,19.896666 11.562292,35.480627 27.834172,40.560627 5.13291,1.5875 12.85875,2.54 14.68437,1.77271 1.40229,-0.58209 1.74625,-2.0373 0.76729,-3.28084 -0.44979,-0.58208 -0.74083,-0.68791 -1.905,-0.68791 -3.33375,0 -8.51958,-0.87313 -12.22375,-2.0373 -2.64583,-0.8202 -7.38187,-3.175 -9.65729,-4.78895 -2.54,-1.79917 -6.56167,-5.95313 -8.28146,-8.546046 -4.074582,-6.164791 -6.217707,-13.17625 -6.79979,-22.198541 -0.211667,-3.413125 -0.370417,-4.497917 -0.740833,-5.000625 -0.529167,-0.714375 -1.243542,-1.031875 -2.090209,-0.873125 z"
-       style="fill:#221c35;fill-opacity:1;stroke-width:0.0264583"
-       id="path4" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.175px;fill:#221c35;fill-opacity:1;stroke-width:0.264583"
-       x="133.31779"
-       y="118.72813"
-       id="text4"><tspan
-         sodipodi:role="line"
-         id="tspan4"
-         x="133.31779"
-         y="118.72813"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:19.4028px;font-family:'Lugina FP';-inkscape-font-specification:'Lugina FP, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">EGULA</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:19.4028px;font-family:'Lugina FP';-inkscape-font-specification:'Lugina FP, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#221c35;fill-opacity:1;stroke-width:0.264583"
-       x="133.33408"
-       y="102.57139"
-       id="text6"
-       inkscape:export-filename="PulseRegula_.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan6"
-         x="133.33408"
-         y="102.57139"
-         style="fill:#0f4c81;fill-opacity:1;stroke-width:0.264583">ULSE</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="prTitle prDesc">
+  <title id="prTitle">PulseRegula</title>
+  <desc id="prDesc">PulseRegula — Regulatory Affairs and Quality Consulting logo: a rounded square containing a pulse line shaped into the letter P, next to the PulseRegula wordmark.</desc>
+  <defs>
+    <linearGradient id="prGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1465a8"/>
+      <stop offset="1" stop-color="#0f4c81"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark -->
+  <g>
+    <rect x="12" y="20" width="120" height="120" rx="26" fill="url(#prGrad)"/>
+    <path d="M14 82 h20 l7 -20 l12 40 l8 -24 h11"
+          fill="none" stroke="#ffffff" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"
+          transform="translate(30,2)"/>
   </g>
+  <!-- Wordmark -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="52" font-weight="700">
+    <text x="156" y="100" fill="#0f4c81">Pulse</text>
+    <text x="278" y="100" fill="#221c35">Regula</text>
+  </g>
+  <text x="158" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14.5" letter-spacing="3.4" fill="#5a5f73">REGULATORY AFFAIRS &amp; QUALITY</text>
 </svg>
